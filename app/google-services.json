@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802495076902",
+    "project_id": "resourcesharing-5257e",
+    "storage_bucket": "resourcesharing-5257e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802495076902:android:274bf191adfe101611e4e7",
+        "android_client_info": {
+          "package_name": "com.example.resourcesharing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKsUSoc_VsTMm0VSw0sTGDbwYylrb4jwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
