@@ -10,8 +10,10 @@ import com.example.resourcesharing.navigation.PostOfficeAppRouter
 import com.example.resourcesharing.navigation.Screen
 import com.example.resourcesharing.screens.CourseScreen
 import com.example.resourcesharing.screens.HomeScreen
+import com.example.resourcesharing.screens.ImageScreen
 import com.example.resourcesharing.screens.LoginScreen
 import com.example.resourcesharing.screens.SignUpScreen
+import com.example.resourcesharing.screens.SubjectScreen
 import com.example.resourcesharing.screens.TermsAndConditionsScreen
 
 
@@ -48,6 +50,16 @@ fun PostOfficeApp() {
                     // Check if it's the CourseScreen with an id
                     val screen = currentState.value as Screen.CourseScreen
                     CourseScreen(id = screen.id)
+                }
+
+                is Screen.SubjectScreen -> {
+                    val screen = currentState.value as Screen.SubjectScreen
+                    SubjectScreen(course = screen.course, id = screen.id)
+                }
+
+                is Screen.ImageScreen -> {
+                    val screen = currentState.value as Screen.ImageScreen
+                    ImageScreen(course = screen.course, id = screen.id)
                 }
             }
             

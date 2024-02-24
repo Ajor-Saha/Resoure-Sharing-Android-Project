@@ -10,6 +10,8 @@ sealed class Screen {
     object LoginScreen : Screen()
     object HomeScreen : Screen()
     data class CourseScreen(val id: Int) : Screen()
+    data class  SubjectScreen(val course: String , val id: Int) : Screen()
+    data class ImageScreen(val course: String, val id: Int) : Screen()
 }
 
 object PostOfficeAppRouter {

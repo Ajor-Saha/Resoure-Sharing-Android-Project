@@ -33,6 +33,10 @@ class LoginViewModel : ViewModel() {
             is LoginUIEvent.LoginButtonClicked -> {
                 login()
             }
+
+            else -> {
+                Log.d("when","execute `")
+            }
         }
         validateLoginUIDataWithRules()
     }

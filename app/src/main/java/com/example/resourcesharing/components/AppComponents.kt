@@ -1,13 +1,17 @@
 package com.example.resourcesharing.components
 
 import android.util.Log
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.text.KeyboardActions
@@ -39,6 +43,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
@@ -442,22 +447,22 @@ fun ClickableCard(
 
     val annotatedString = buildAnnotatedString {
 
-        withStyle(style = SpanStyle(color = Primary)) {
+        withStyle(style = SpanStyle(color = TextColor)) {
             pushStringAnnotation(tag = loginText, annotation = id.toString())
             append(initialText)
         }
     }
 
 
+
     ClickableText(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(top = 50.dp),
+            .padding(top = 50.dp, end = 8.dp),
         style = TextStyle(
             fontSize = 21.sp,
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal,
-
+            background = WhiteColor
         ),
         text = annotatedString,
         onClick = { offset ->
@@ -472,4 +477,77 @@ fun ClickableCard(
                 }
         },
     )
+}
+
+
+
+
+@Composable
+fun ClickableCarda(
+    id: Int,
+    onTextSelected: (String) -> Unit
+) {
+    val initialText = when(id) {
+        1 -> "1st semester"
+        2 -> "2nd semester"
+        3 -> "3rd semester"
+        4 -> "4th semester"
+        5 -> "5th semester"
+        6 -> "6th semester"
+        7 -> "7th semester"
+        8 -> "8th semester"
+        else -> "Semester"
+    }
+
+    val loginText = "Click me for id $id"
+
+    val annotatedString = buildAnnotatedString {
+
+        withStyle(style = SpanStyle(color = TextColor)) {
+            pushStringAnnotation(tag = loginText, annotation = id.toString())
+            append(initialText)
+        }
+    }
+
+    Column(
+        modifier = Modifier
+            .padding(8.dp)
+            .clip(shape = RoundedCornerShape(16.dp))
+            .clickable(onClick = { onTextSelected(initialText) }) // Clickable area encompasses the whole card
+            .background(WhiteColor)
+            .padding(5.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // Image representing study
+        Image(
+            painter = painterResource(id = R.drawable.logo1),
+            contentDescription = "Study Image",
+            modifier = Modifier
+                .size(120.dp, 90.dp)
+                .padding(bottom = 8.dp) // Padding between image and text
+        )
+
+        // Clickable text
+        ClickableText(
+            modifier = Modifier.padding(4.dp),
+            style = TextStyle(
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Normal,
+                fontStyle = FontStyle.Normal,
+                color = TextColor
+            ),
+            text = annotatedString,
+            onClick = { offset ->
+                annotatedString.getStringAnnotations(offset, offset)
+                    .firstOrNull()?.also { span ->
+                        Log.d("ClickableTextComponent", "{${span.item}}")
+
+                        val selectedId = span.item.toIntOrNull()
+                        if (selectedId != null) {
+                            onTextSelected(initialText)
+                        }
+                    }
+            },
+        )
+    }
 }
