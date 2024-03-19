@@ -126,18 +126,26 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
                             "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing")
+                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Control Structures", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"),
-                        VideoCourse.Chapter.TopicItem("Functions", "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing")
+                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Functions", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Entering Input Data ", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing")
+                    )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem("Arithmetic Operators", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Relational and Logical Operators", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "https://drive.google.com/file/d/1o835mT2agXUPzihgT3AkhDKEPCM5aCst/view?usp=sharing")
                     )
                 )
             )
@@ -151,7 +159,7 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
                             "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view"
+                            "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing"
                         ),
                         VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing")
                     )
@@ -159,8 +167,15 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", ""),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem("Proof Techniques", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Graph Theory", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing")
+                    )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem("Euclidean Vector Spaces", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Orthogonality", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view?usp=sharing")
                     )
                 )
             )
@@ -172,19 +187,33 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Introduction",
+                            "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Power and Energy", "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "https://drive.google.com/file/d/1V44RnJVbc996OY4ilir0Tb6m5GZNf5vO/view"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Ohm’s Law",
+                            "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Nodes, Branches, and Loops", "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing")
                     )
-                )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 1",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem(
+                            "Nodal Analysis with Voltage Sources ",
+                            "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Mesh Analysis with Current Sources", "https://drive.google.com/file/d/10wht3xM_yFEC8jAaPmzBLaQAeONEtojn/view?usp=sharing")
+                    )
+                ),
+
             )
         )
         "Matrices, Vector Analysis and Geometry" -> VideoCourse(
@@ -194,19 +223,32 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Systems of Linear Equations and Matrices",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Matrices and Matrix Operations", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Determinants by Cofactor Expansion",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Evaluating Determinants by Row Reduction", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
                     )
-                )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem(
+                            "Properties of Determinants; Cramer's Rule",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Orthogonality", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
+                    )
+                ),
             )
         )
         "English Language" -> VideoCourse(
@@ -216,19 +258,39 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Grammar Essentials",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"),
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
+
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Grammar Essentials",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"),
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
+
                     )
-                )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem(
+                            "Grammar Essentials",
+                            "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari"),
+                        VideoCourse.Chapter.TopicItem("Mastering Vocabulary", "https://drive.google.com/file/d/1um6HSWB3nJn7iQvJW5xQUyi4PA41tFGP/view?usp=shari")
+
+                    )
+                ),
+
             )
         )
         "Data Structure" -> VideoCourse(
@@ -238,19 +300,36 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Introduction AND Overview",
+                            "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Data Structure Operation", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Mathematical Notation and Function", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Complexity of Algorithms",
+                            "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Variables , Data Types", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("String Processing", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing")
                     )
-                )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem(
+                            "Arrays Records and Pointers",
+                            "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Inserting and deleting ", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Searching :linear Searching", "https://drive.google.com/file/d/1LsvIOxPPfLVzV2mE30oYNg7HDfHVE8Vq/view?usp=sharing")
+                    )
+                ),
+
             )
         )
         "Electronic Devices and Circuits" -> VideoCourse(
@@ -260,17 +339,33 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Semiconductor Diodes",
+                            "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Covalent Bonding and Intrinsic Materials ", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("n -Type and p -Type Materials ", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Diode Applications",
+                            "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Series Diode Configurations", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("AND/OR Gate", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing")
+                    )
+                ),
+                VideoCourse.Chapter(
+                    chapterName = "Chapter 3",
+                    topicList = listOf(
+                        VideoCourse.Chapter.TopicItem(
+                            "Transistor Construction",
+                            "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Common-Base Configuration", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Limits of Operation", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing")
                     )
                 )
             )
@@ -282,30 +377,28 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Sets, Relations, and Functions",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Engineering Drawing Standards",
+                            "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Logic and Propositional Calculus", "link8")
+                        VideoCourse.Chapter.TopicItem("Orthographic Projection", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Isometric and Axonometric Projection", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
+                        VideoCourse.Chapter.TopicItem(
+                            "Technical Sketching and Visualization",
+                            "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Technical Sketching and Visualization", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Technical Sketching and Visualization", "https://drive.google.com/file/d/1qbPJmtzEZAdWLpfsTcf54Dij4A1B80R6/view?usp=sharing")
                     )
                 ),
-                VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
-                    topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Proof Techniques", "link9"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10"),
-                        VideoCourse.Chapter.TopicItem("Graph Theory", "link10")
 
-                )
-                )
             )
         )
+
         "Mechanics, Wave, Heat & Thermodynamics" -> VideoCourse(
             courseTitle = courseTitle,
             chapters = listOf(
@@ -313,29 +406,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "What Is Physics?",
+                            "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Position and Displacement", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Average Velocity and Average Speed", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "What Is Physics?",
+                            "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Position and Displacement", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Average Velocity and Average Speed", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 3",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "What Is Physics?",
+                            "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Position and Displacement", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Average Velocity and Average Speed", "https://drive.google.com/file/d/1P-vDRCBGQEWl3LfrPJ0O8oYmg7FW8n8Y/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Calculus" -> VideoCourse(
@@ -345,29 +444,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Integration",
+                            "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("basic differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Integration",
+                            "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("basic differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 3",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Integration",
+                            "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("basic differentiation", "https://drive.google.com/file/d/1k-ltDjgd3HfFb9g6P5zivri738kT4a-L/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Ethics and Cyber Law" -> VideoCourse(
@@ -377,29 +482,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Introduction to Cyber Ethics:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Cyber-security and Privacy Laws", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Cybercrime and Law Enforcement", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 2",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Introduction to Cyber Ethics:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Cyber-security and Privacy Laws", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Cybercrime and Law Enforcement", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
                     chapterName = "Chapter 3",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Introduction to Cyber Ethics:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Cyber-security and Privacy Laws", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Cybercrime and Law Enforcement", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Project Work 1" -> VideoCourse(
@@ -409,29 +520,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Renewable Energy Solutions:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Renewable Energy Solutions:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Renewable Energy Solutions:",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Urban Planning and Sustainable Development", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Digital Logic Design" -> VideoCourse(
@@ -441,29 +558,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Algorithm Design & Analysis" -> VideoCourse(
@@ -473,29 +596,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Cost and Management Accounting" -> VideoCourse(
@@ -505,29 +634,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Basic Statistics & Probability" -> VideoCourse(
@@ -537,29 +672,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Object Oriented Programming Language" -> VideoCourse(
@@ -569,29 +710,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Data Science" -> VideoCourse(
@@ -601,29 +748,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Numerical Analysis" -> VideoCourse(
@@ -633,29 +786,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Theory of Computation and Concrete Mathematics" -> VideoCourse(
@@ -665,29 +824,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Principles of Economics" -> VideoCourse(
@@ -697,29 +862,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Project Work II" -> VideoCourse(
@@ -729,29 +900,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Database System" -> VideoCourse(
@@ -761,29 +938,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Communication Engineering" -> VideoCourse(
@@ -793,29 +976,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Microprocessor & Interfacing" -> VideoCourse(
@@ -825,29 +1014,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Operating System and System Programming" -> VideoCourse(
@@ -857,29 +1052,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Software Engineering & Design Patterns" -> VideoCourse(
@@ -889,29 +1090,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Computer Networking" -> VideoCourse(
@@ -921,29 +1128,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Computer Graphics and Image Processing" -> VideoCourse(
@@ -953,29 +1166,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Technical Writing And Presentation" -> VideoCourse(
@@ -985,29 +1204,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Artificial Intelligence" -> VideoCourse(
@@ -1017,29 +1242,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Compiler Construction" -> VideoCourse(
@@ -1049,29 +1280,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Web Engineering" -> VideoCourse(
@@ -1081,29 +1318,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Option I" -> VideoCourse(
@@ -1113,29 +1356,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Thesis / Project I" -> VideoCourse(
@@ -1145,29 +1394,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Digital Signal Processing" -> VideoCourse(
@@ -1177,29 +1432,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Option II" -> VideoCourse(
@@ -1209,29 +1470,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
         "Thesis / Project II" -> VideoCourse(
@@ -1241,29 +1508,35 @@ fun videoSubjectData(courseTitle: String): VideoCourse? {
                     chapterName = "Chapter 1",
                     topicList = listOf(
                         VideoCourse.Chapter.TopicItem(
-                            "Introduction to Programming",
-                            "https://drive.google.com/file/d/151EFWQGLYJ50iUvhx0zgJeBYMVoW94kB/view?usp=sharing"
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
                         ),
-                        VideoCourse.Chapter.TopicItem("Variables and Data Types", "link2"),
-                        VideoCourse.Chapter.TopicItem("Control Structures", "link3")
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 2",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
                 ),
                 VideoCourse.Chapter(
-                    chapterName = "Chapter 3",
+                    chapterName = "Chapter 1",
                     topicList = listOf(
-                        VideoCourse.Chapter.TopicItem("Arrays and Strings", "link4"),
-                        VideoCourse.Chapter.TopicItem("Functions", "link5"),
-                        VideoCourse.Chapter.TopicItem("Files and Input/Output", "link6")
+                        VideoCourse.Chapter.TopicItem(
+                            "Number Systems and Codes",
+                            "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"
+                        ),
+                        VideoCourse.Chapter.TopicItem("Complements (1's complement, 2's complement)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing"),
+                        VideoCourse.Chapter.TopicItem("Basic Logic Operations (AND, OR, NOT)", "https://drive.google.com/file/d/1f2iRpXztZzZms8-pSyiWJDASA5mROQlp/view?usp=sharing")
                     )
-                )
+                ),
             )
         )
 
